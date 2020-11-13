@@ -1,0 +1,25 @@
+{
+  "name": "steamcontent",
+  "private": true,
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "eslint src --ext js",
+    "pretty": "prettier \"src/**/*.js\" --write"
+  },
+  "dependencies": {
+    "amazon-s3-uri": "0.0.3",
+    "async": "3.2.0",
+    "aws-sdk": "2.738.0",
+    "body-parser": "1.19.0",
+    "connect-multiparty": "2.2.0",
+    "cookie-parser": "1.4.4",
+    "errorhandler": "1.5.1",
+    "express": "4.17.1",
+    "lodash": "4.17.15",
+    "method-override": "3.0.0",
+    "morgan": "1.9.1",
+    "mysql": "2.18.1",
+    "request": "2.88.2"
+  }
+}
